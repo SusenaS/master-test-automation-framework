@@ -5,9 +5,9 @@
     <classes>
       <class name="tests.OpenCartHomePageTest">
         <methods>
-          <include name="openHomePageAndVerifyTitle"/>
           <include name="setup"/>
-          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="openHomePageAndVerifyTitle"/>
         </methods>
       </class> <!-- tests.OpenCartHomePageTest -->
     </classes>

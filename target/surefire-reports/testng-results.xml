@@ -1,55 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-11T22:37:55 IST" name="SeleniumBDDProject Suite" finished-at="2025-08-11T22:38:17 IST" duration-ms="21761">
+  <suite started-at="2025-08-13T23:43:43 IST" name="Full Regression Suite" finished-at="2025-08-13T23:43:53 IST" duration-ms="9465">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@765d7657]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-08-11T22:37:55 IST" name="TestNG Selenium Test" finished-at="2025-08-11T22:38:11 IST" duration-ms="16091">
-      <class name="com.example.tests.GoogleTest">
-        <test-method signature="openGoogle()[pri:0, instance:com.example.tests.GoogleTest@1ab3a8c8]" started-at="2025-08-11T22:37:55 IST" name="openGoogle" finished-at="2025-08-11T22:38:11 IST" duration-ms="15965" status="PASS">
+    <test started-at="2025-08-13T23:43:43 IST" name="OpenCart Tests" finished-at="2025-08-13T23:43:53 IST" duration-ms="9465">
+      <class name="tests.OpenCartHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.OpenCartHomePageTest@6069db50]" started-at="2025-08-13T23:43:43 IST" name="setup" finished-at="2025-08-13T23:43:53 IST" duration-ms="9091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openGoogle -->
-      </class> <!-- com.example.tests.GoogleTest -->
-    </test> <!-- TestNG Selenium Test -->
-    <test started-at="2025-08-11T22:38:11 IST" name="Cucumber BDD Test" finished-at="2025-08-11T22:38:17 IST" duration-ms="5617">
-      <class name="runners.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@765d7657]" started-at="2025-08-11T22:38:11 IST" name="setUpClass" finished-at="2025-08-11T22:38:13 IST" duration-ms="2171" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="openHomePageAndVerifyTitle()[pri:0, instance:tests.OpenCartHomePageTest@6069db50]" started-at="2025-08-13T23:43:53 IST" name="openHomePageAndVerifyTitle" finished-at="2025-08-13T23:43:53 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openHomePageAndVerifyTitle -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.OpenCartHomePageTest@6069db50]" started-at="2025-08-13T23:43:53 IST" name="tearDown" finished-at="2025-08-13T23:43:53 IST" duration-ms="306" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@20cece0b]]>
+                <![CDATA[[TestResult name=openHomePageAndVerifyTitle status=SUCCESS method=OpenCartHomePageTest.openHomePageAndVerifyTitle()[pri:0, instance:tests.OpenCartHomePageTest@6069db50] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@765d7657]" started-at="2025-08-11T22:38:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-08-11T22:38:17 IST" duration-ms="3351" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Open Google homepage"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Google Search"]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.OpenCartHomePageTest@6069db50]" started-at="2025-08-13T23:43:53 IST" name="teardown" finished-at="2025-08-13T23:43:53 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@765d7657]" started-at="2025-08-11T22:38:17 IST" name="tearDownClass" finished-at="2025-08-11T22:38:17 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runners.TestRunner -->
-    </test> <!-- Cucumber BDD Test -->
-  </suite> <!-- SeleniumBDDProject Suite -->
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.OpenCartHomePageTest -->
+    </test> <!-- OpenCart Tests -->
+  </suite> <!-- Full Regression Suite -->
 </testng-results>

@@ -1,0 +1,26 @@
+2025-08-13 23:22:44 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:22:48 INFO  Log:12 - Browser window maximized
+2025-08-13 23:25:41 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:25:46 INFO  Log:12 - Browser window maximized
+2025-08-13 23:25:47 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:25:49 INFO  Log:12 - Browser closed after test execution.
+2025-08-13 23:29:48 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:29:51 INFO  Log:12 - Browser window maximized
+2025-08-13 23:29:54 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:29:54 INFO  Log:12 - Browser closed after test execution.
+2025-08-13 23:31:51 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:31:55 INFO  Log:12 - Browser window maximized
+2025-08-13 23:31:58 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:31:58 INFO  Log:12 - Browser closed after test execution.
+2025-08-13 23:33:52 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:33:55 INFO  Log:12 - Browser window maximized
+2025-08-13 23:33:58 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:33:58 INFO  Log:12 - Browser closed after test execution.
+2025-08-13 23:35:15 WARN  Log:20 - Unrecognized browser. Launching Chrome by default.
+2025-08-13 23:35:17 INFO  Log:12 - Browser window maximized
+2025-08-13 23:35:21 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:35:21 INFO  Log:12 - Browser closed after test execution.
+2025-08-13 23:43:49 INFO  Log:12 - Chrome launched successfully
+2025-08-13 23:43:49 INFO  Log:12 - Browser window maximized
+2025-08-13 23:43:53 INFO  Log:12 - Navigated to URL: https://opensource-demo.orangehrmlive.com/
+2025-08-13 23:43:53 INFO  Log:12 - Browser closed after test execution.
